@@ -142,6 +142,16 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "MonoGameLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MonoGameLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonoGameLibrary.dll": {}
+        }
       }
     }
   },
@@ -301,12 +311,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MonoGameLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MonoGameLibrary/MonoGameLibrary.csproj",
+      "msbuildProject": "../MonoGameLibrary/MonoGameLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "MonoGame.Content.Builder.Task >= 3.8.*",
-      "MonoGame.Framework.DesktopGL >= 3.8.*"
+      "MonoGame.Framework.DesktopGL >= 3.8.*",
+      "MonoGameLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -315,11 +331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Monogame\\DungeonSlime\\DungeonSlime.csproj",
+      "projectUniqueName": "C:\\Users\\Gavin\\Documents\\Monogame\\DungeonSlime\\DungeonSlime.csproj",
       "projectName": "DungeonSlime",
-      "projectPath": "C:\\Monogame\\DungeonSlime\\DungeonSlime.csproj",
+      "projectPath": "C:\\Users\\Gavin\\Documents\\Monogame\\DungeonSlime\\DungeonSlime.csproj",
       "packagesPath": "C:\\Users\\Gavin\\.nuget\\packages\\",
-      "outputPath": "C:\\Monogame\\DungeonSlime\\obj\\",
+      "outputPath": "C:\\Users\\Gavin\\Documents\\Monogame\\DungeonSlime\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gavin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -333,7 +349,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gavin\\Documents\\Monogame\\MonoGameLibrary\\MonoGameLibrary.csproj": {
+              "projectPath": "C:\\Users\\Gavin\\Documents\\Monogame\\MonoGameLibrary\\MonoGameLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

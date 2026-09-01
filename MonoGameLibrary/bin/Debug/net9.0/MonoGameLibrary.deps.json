@@ -6,17 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "DungeonSlime/1.0.0": {
+      "MonoGameLibrary/1.0.0": {
         "dependencies": {
-          "MonoGame.Content.Builder.Task": "3.8.5.1",
-          "MonoGame.Framework.DesktopGL": "3.8.5.1",
-          "MonoGameLibrary": "1.0.0"
+          "MonoGame.Framework.DesktopGL": "3.8.5.1"
         },
         "runtime": {
-          "DungeonSlime.dll": {}
+          "MonoGameLibrary.dll": {}
         }
       },
-      "MonoGame.Content.Builder.Task/3.8.5.1": {},
       "MonoGame.Framework.DesktopGL/3.8.5.1": {
         "dependencies": {
           "MonoGame.Library.OpenAL": "1.24.3.4",
@@ -136,29 +133,14 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.ValueTuple/4.5.0": {},
-      "MonoGameLibrary/1.0.0": {
-        "runtime": {
-          "MonoGameLibrary.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      }
+      "System.ValueTuple/4.5.0": {}
     }
   },
   "libraries": {
-    "DungeonSlime/1.0.0": {
+    "MonoGameLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "MonoGame.Content.Builder.Task/3.8.5.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9isFjZSi87Fy8Hv0qLeol27xUNdt3EzGYdBabR/qHVT7ujVGebWQzfgjDhJaT3M8tJEazpeA+ftYAgokmIZUbQ==",
-      "path": "monogame.content.builder.task/3.8.5.1",
-      "hashPath": "monogame.content.builder.task.3.8.5.1.nupkg.sha512"
     },
     "MonoGame.Framework.DesktopGL/3.8.5.1": {
       "type": "package",
@@ -201,11 +183,6 @@
       "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
-    },
-    "MonoGameLibrary/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

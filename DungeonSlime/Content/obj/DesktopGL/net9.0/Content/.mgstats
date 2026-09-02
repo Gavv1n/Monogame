@@ -1,1 +1,3 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Gavin/Documents/Monogame/DungeonSlime/Content/images/Fox_Idle_with_shadow.png","C:/Users/Gavin/Documents/Monogame/DungeonSlime/Content/bin/DesktopGL/Content/images/Fox_Idle_with_shadow.xnb","TextureProcessor","Texture2DContent",4546,65621,0.1235818
+"C:/Users/Gavin/Documents/Monogame/DungeonSlime/Content/images/Fox_walk_with_shadow.png","C:/Users/Gavin/Documents/Monogame/DungeonSlime/Content/bin/DesktopGL/Content/images/Fox_walk_with_shadow.xnb","TextureProcessor","Texture2DContent",7618,98389,0.0056102

@@ -73,3 +73,5 @@ C:\Users\Gavin\Documents\Monogame\DungeonSlime\obj\Debug\net9.0\refint\DungeonSl
 C:\Users\Gavin\Documents\Monogame\DungeonSlime\obj\Debug\net9.0\DungeonSlime.pdb
 C:\Users\Gavin\Documents\Monogame\DungeonSlime\obj\Debug\net9.0\DungeonSlime.genruntimeconfig.cache
 C:\Users\Gavin\Documents\Monogame\DungeonSlime\obj\Debug\net9.0\ref\DungeonSlime.dll
+C:\Users\Gavin\Documents\Monogame\DungeonSlime\bin\Debug\net9.0\Content\images\Fox_Idle_with_shadow.xnb
+C:\Users\Gavin\Documents\Monogame\DungeonSlime\bin\Debug\net9.0\Content\images\Fox_walk_with_shadow.xnb

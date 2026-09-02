@@ -7,6 +7,7 @@ namespace DungeonSlime;
 
 public class Game1 : Core
 {
+    private Texture2D _texture;
     public Game1() : base("Dungeon Slime", 1280, 720, false)
     {
 
@@ -21,8 +22,8 @@ public class Game1 : Core
 
     protected override void LoadContent()
     {
-        // TODO: use this.Content to load your game content here
-
+        // load my sprites
+        _texture = Content.Load<Texture2D>("images/Fox_walk_with_shadow");
         base.LoadContent();
     }
 
@@ -40,8 +41,14 @@ public class Game1 : Core
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        // Start drawing sprites
+        SpriteBatch.Begin();
 
+        // Draw the sprite at position (100, 100) with white color
+        SpriteBatch.Draw(_texture, new Vector2(100, 100), Color.White);
+        
+        //end the sprite batch
+        SpriteBatch.End();
         base.Draw(gameTime);
     }
 }

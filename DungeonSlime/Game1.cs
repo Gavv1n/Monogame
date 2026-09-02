@@ -45,7 +45,7 @@ public class Game1 : Core
         SpriteBatch.Begin();
 
         // Draw the sprite at position (100, 100) with white color
-        SpriteBatch.Draw(_texture, new Vector2(100, 100), Color.White);
+        SpriteBatch.Draw(_texture, new Vector2(640, 360), Color.White);
         
         //end the sprite batch
         SpriteBatch.End();

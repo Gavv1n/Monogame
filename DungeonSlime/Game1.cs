@@ -41,11 +41,25 @@ public class Game1 : Core
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
+        //select a single sprite from the spritesheet
+        Rectangle SpriteRectangle = new Rectangle(0, 0, 32, 32);
         // Start drawing sprites
         SpriteBatch.Begin();
 
-        // Draw the sprite at position (100, 100) with white color
-        SpriteBatch.Draw(_texture, new Vector2(640, 360), Color.White);
+            // Draw the logo texture.
+    SpriteBatch.Draw(
+        _texture,          // texture
+        new Vector2(    // position
+            (Window.ClientBounds.Width * 0.5f) - (SpriteRectangle.Width * 0.5f), 
+            (Window.ClientBounds.Height * 0.5f) - (SpriteRectangle.Height * 0.5f)),
+            SpriteRectangle,               // sourceRectangle
+            Color.White * 1.0f,        // color and also opacity
+            MathHelper.ToRadians(360),               // rotation
+            new Vector2(0, 0),       // origin
+            1.0f,               // scale
+            SpriteEffects.None, // effects
+            0.0f                // layerDepth
+        );
         
         //end the sprite batch
         SpriteBatch.End();

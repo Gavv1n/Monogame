@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/Gavin/Documents/Monogame/3902/Content/images/Fox_Idle_with_shadow.png</SourceFile>
-  <SourceTime>2026-09-12T18:31:13.6027161-04:00</SourceTime>
-  <DestFile>c:/Users/Gavin/Documents/Monogame/3902/Content/bin/DesktopGL/Content/images/Fox_Idle_with_shadow.xnb</DestFile>
-  <DestTime>2026-09-12T18:33:43.5229205-04:00</DestTime>
+  <SourceFile>c:/Users/Gavin/Documents/Monogame/3902/Content/images/Boar_Walk_with_shadow.png</SourceFile>
+  <SourceTime>2025-11-23T17:12:57-05:00</SourceTime>
+  <DestFile>c:/Users/Gavin/Documents/Monogame/3902/Content/bin/DesktopGL/Content/images/Boar_Walk_with_shadow.xnb</DestFile>
+  <DestTime>2026-09-12T18:57:16.5941987-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2026-08-14T17:50:10-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

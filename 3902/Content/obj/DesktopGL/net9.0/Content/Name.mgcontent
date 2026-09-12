@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>c:/Users/Gavin/Documents/Monogame/3902/Content/Name.spritefont</SourceFile>
-  <SourceTime>2026-09-12T16:43:07.0404645-04:00</SourceTime>
+  <SourceTime>2026-09-12T18:31:13.5956998-04:00</SourceTime>
   <DestFile>c:/Users/Gavin/Documents/Monogame/3902/Content/bin/DesktopGL/Content/Name.xnb</DestFile>
-  <DestTime>2026-09-12T16:45:53.6547579-04:00</DestTime>
+  <DestTime>2026-09-12T18:33:43.603744-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2026-08-14T17:50:10-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

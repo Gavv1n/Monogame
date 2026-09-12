@@ -41,3 +41,5 @@ c:\Users\Gavin\Documents\Monogame\3902\bin\Debug\net9.0\Content\images\Fox_Idle_
 c:\Users\Gavin\Documents\Monogame\3902\bin\Debug\net9.0\Content\images\Fox_walk_with_shadow.xnb
 c:\Users\Gavin\Documents\Monogame\3902\bin\Debug\net9.0\Content\Name.xnb
 c:\Users\Gavin\Documents\Monogame\3902\bin\Debug\net9.0\Content\URL.xnb
+c:\Users\Gavin\Documents\Monogame\3902\bin\Debug\net9.0\Content\images\Boar_Idle_with_shadow.xnb
+c:\Users\Gavin\Documents\Monogame\3902\bin\Debug\net9.0\Content\images\Boar_Walk_with_shadow.xnb

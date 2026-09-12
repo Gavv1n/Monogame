@@ -10,6 +10,7 @@ namespace _3902
         private SpriteBatch _spriteBatch;
 
         private IPlayer _player;
+        private IPlayer _player2;
 
         private SpriteFont font;
         private SpriteFont URL;
@@ -29,15 +30,22 @@ namespace _3902
             font = Content.Load<SpriteFont>("Name");
             URL = Content.Load<SpriteFont>("URL");
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            Texture2D idle = Content.Load<Texture2D>("images/Fox_Idle_with_shadow");
-            Texture2D walk = Content.Load<Texture2D>("images/Fox_walk_with_shadow");
+            Texture2D idleF = Content.Load<Texture2D>("images/Fox_Idle_with_shadow");
+            Texture2D walkF = Content.Load<Texture2D>("images/Fox_walk_with_shadow");
+            Texture2D idleB = Content.Load<Texture2D>("images/Boar_Idle_with_shadow");
+            Texture2D walkB = Content.Load<Texture2D>("images/Boar_walk_with_shadow");
 
-            ISprite sprite = new AnimatedSprite(idle, walk);
+
+            ISprite sprite = new AnimatedSprite(idleF, walkF);
+            ISprite sprite2 = new AnimatedSprite(idleB, walkB);
             // load keyboard controller with the sprite so it can get sprites pos and update it
             // after usage
-            IController controller = new KeyboardController(sprite);
+            IController mController = new MouseController(sprite);
+            IController kbController = new KeyboardController(sprite2);
             // load player
-            _player = new Player(controller, sprite);
+            _player = new Player(mController, sprite);
+            _player2 = new Player(kbController, sprite2);
+
         }
 
         // pretty self explanatory. if you wanna quit press escape. player will update, gametime will update.
@@ -49,6 +57,7 @@ namespace _3902
             }
 
             _player.Update(gameTime);
+            _player2.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -65,6 +74,7 @@ namespace _3902
             _spriteBatch.DrawString(font, "Program Made By: Gavin Brooks", new Vector2(10,400), Color.Black);
             _spriteBatch.DrawString(URL, "Sprites from: https://craftpix.net/freebies/free-top-down-hunt-animals-pixel-sprite-pack/",
              new Vector2(10,450), Color.Black);
+            _player2.Draw(_spriteBatch);
             _player.Draw(_spriteBatch);
             _spriteBatch.End();
 

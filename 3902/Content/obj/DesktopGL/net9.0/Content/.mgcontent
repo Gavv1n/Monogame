@@ -4,12 +4,16 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>c:/Users/Gavin/Documents/Monogame/3902/Content/images/Boar_Idle_with_shadow.png</File>
+    <File>c:/Users/Gavin/Documents/Monogame/3902/Content/images/Boar_Walk_with_shadow.png</File>
     <File>c:/Users/Gavin/Documents/Monogame/3902/Content/images/Fox_Idle_with_shadow.png</File>
     <File>c:/Users/Gavin/Documents/Monogame/3902/Content/images/Fox_walk_with_shadow.png</File>
     <File>c:/Users/Gavin/Documents/Monogame/3902/Content/Name.spritefont</File>
     <File>c:/Users/Gavin/Documents/Monogame/3902/Content/URL.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
